@@ -11,7 +11,7 @@ function App() {
     setNum(num-1)
   }
   return (
-    <div id="container">
+    <div>
       <div id="main_container">
        <h1>{num}</h1>
        <div id="btn_collection">
