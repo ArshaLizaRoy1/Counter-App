@@ -4,11 +4,11 @@ function App() {
   let [num,setNum]=useState(0)
 
   const increment=()=>{
-    setNum(num++)
+    setNum(num+1)
   }
 
   const decrement=()=>{
-    setNum(num--)
+    setNum(num-1)
   }
   return (
     <div id="container">
